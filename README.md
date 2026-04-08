@@ -67,3 +67,10 @@ Input → Scaling → SVR Model → Prediction → Inverse Scaling → Final Out
 
 Scaling both input and output improves the performance of SVR compared to scaling only the input.  
 This project demonstrates how proper preprocessing can enhance model accuracy and stability.
+
+## Note
+
+Model and scaler files are not included in this repository.
+
+To generate them, please run the training notebook:
+01_svr_input_preprocessing.ipynb or 02_svr_input_output_preprocessing.ipynb
